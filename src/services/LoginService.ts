@@ -24,8 +24,7 @@ export class LoginService {
                 return false;
             }
         } catch (error) {
-            //console.error(error.message)
-            console.error(error)
+            console.error(error.message)
             return false;
         }
 
